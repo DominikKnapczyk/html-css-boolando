@@ -1,0 +1,38 @@
+/* GENARAL */
+
+header {
+  background-color: #ff6900;
+  height: 5rem;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100%;
+}
+
+/* LEFT SECTION */
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0.2rem;
+}
+
+/* MIDDLE SECTION */
+
+.middle-section {
+  width: 9rem;
+}
+
+/* RIGHT SECTION */
+
+.right-section > i {
+  color: white;
+  margin: 0 0.2rem;
+}

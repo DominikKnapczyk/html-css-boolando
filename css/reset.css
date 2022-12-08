@@ -8,6 +8,7 @@
 	margin: 0;
 	padding: 0;
 	font: inherit;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -19,4 +20,5 @@ svg,
 picture,
 video {
 	max-width: 100%;
+	max-height: 100%;
 }
