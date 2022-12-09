@@ -3,6 +3,7 @@
 header {
   background-color: #ff6900;
   height: 5rem;
+  min-height: 5vh;
 }
 
 
