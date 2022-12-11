@@ -1,10 +1,11 @@
+/* MAIN - GENERAL */
+
 main {
   display: flex;
   justify-content: center;
   align-items: top;
 
   min-height: 95vh;
-
 
 }
 
@@ -56,13 +57,9 @@ main {
   width: 100%;
   height: 100%;
 
- 
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-
-  background-color: blue;
 }
 
 .container-description {
@@ -70,6 +67,8 @@ main {
   height: 60px;
   background-color: white;
 }
+
+/* PRODUCT POP-UP */
 
 .like {
   position: absolute;
@@ -106,6 +105,8 @@ main {
 .sustainability {
   background-color: green;
 }
+
+/* PRODUCT DESCRIPTION */
 
 .brand {
 display: block;
