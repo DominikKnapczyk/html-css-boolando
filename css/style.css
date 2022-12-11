@@ -1,18 +1,22 @@
 main {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
 
   min-height: 95vh;
 
-  background-color: bisque;
+
 }
 
 .grid {
-  min-width: 850px;
+  margin-top: 5%;
 
-  width: 80vw;
-  height: calc((32*80vw)/27); /*Calcolo "aspect ratio" del "div" in base alla lunghezza della finsetra*/
+  min-width: 900px;
+
+  width: 70vw;
+  height: calc(((32*70vw)/27)); /*Calcolo "aspect ratio" del "div" in base alla lunghezza della finsetra*/
+
+
 
   max-width: 3000px;
   max-height: 2000px;
@@ -22,9 +26,10 @@ main {
   display: flex;
   justify-content: space-around;
 
+
   width: 100%;
-  height: calc(((32*80vw)/27)/2); /*Calcolo "aspect ratio" del "div" in base alla lunghezza della finsetra*/
-  
+  height: calc(((32*70vw)/27)/2); /*Calcolo "aspect ratio" del "div" in base alla lunghezza della finsetra*/
+
   max-height: 1000px;
 }
 
@@ -37,10 +42,11 @@ main {
   width: calc(100%/3);
   height: 100%;
 
+
   max-width: 640px;
   max-height: 924px;
 
-  background-color: brown;
+ 
   padding: 10px;
 }
 
@@ -50,6 +56,8 @@ main {
   width: 100%;
   height: 100%;
 
+ 
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -58,7 +66,6 @@ main {
 }
 
 .container-description {
- 
   width: 100%;
   height: 60px;
   background-color: white;
@@ -122,10 +129,62 @@ font-weight: bold;
   text-decoration: line-through;
 }
 
-.man1 {
+/* PRODUCT 1 IMAGE */
+
+.product1 {
   background-image: url(../img/1.webp);
 }
 
-.man1:hover {
+.product1:hover {
   background-image: url(../img/1b.webp);
+}
+
+/* PRODUCT 2 IMAGE */
+
+.product2 {
+  background-image: url(../img/2.webp);
+}
+
+.product2:hover {
+  background-image: url(../img/2b.webp);
+}
+
+/* PRODUCT 3 IMAGE */
+
+.product3 {
+  background-image: url(../img/3.webp);
+}
+
+.product3:hover {
+  background-image: url(../img/3b.webp);
+}
+
+/* PRODUCT 4 IMAGE */
+
+.product4 {
+  background-image: url(../img/4.webp);
+}
+
+.product4:hover {
+  background-image: url(../img/4b.webp);
+}
+
+/* PRODUCT 5 IMAGE */
+
+.product5 {
+  background-image: url(../img/5.webp);
+}
+
+.product5:hover {
+  background-image: url(../img/5b.webp);
+}
+
+/* PRODUCT 6 IMAGE */
+
+.product6 {
+  background-image: url(../img/6.webp);
+}
+
+.product6:hover {
+  background-image: url(../img/6b.webp);
 }
